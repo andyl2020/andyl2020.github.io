@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "Andy Luu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/avatar_image.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "An engineerer interested in how the things works."
   location         : "Langley, BC"
   #email            : "andyl@alumni.ubc.ca" #not sure why this is here since there's already an email section below
