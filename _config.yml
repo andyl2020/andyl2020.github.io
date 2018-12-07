@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "\"Build a Life, Not a Resume\""
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
