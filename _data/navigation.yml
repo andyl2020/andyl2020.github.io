@@ -1,13 +1,17 @@
 # main links, navagation buttons at the top
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-
+#me trying to figure out how this works:
+#titles here are 'labels' show up in the buttons of the nav bar. No relation to links.
+#url's here refernce to the PERMALINKS SET IN THE .md FILES. Will not work if permalinks dont match.
   - title: "About"
     url: /about/
   - title: "Projects"
     url: /projects/
-    
+  - title: "404 Test"
+    url: /404.html
+
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
