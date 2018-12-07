@@ -1,2 +1,0 @@
- - UBC on education should not have a link. however without a URL (or with it commented out) it wont show up. 
- - figure out how to push to master. 
