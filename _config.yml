@@ -4,6 +4,7 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+# cd C:\Users\aluu\Desktop\andyl2020.github.io
 # bundle exec jekyll serve
 
 # Theme Settings
@@ -13,7 +14,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -104,32 +105,37 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Andy Luu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  #email            : "andyl@alumni.ubc.ca"
+  bio              : "An engineerer interested in how the things works."
+  location         : "Langley, BC"
+  #email            : "andyl@alumni.ubc.ca" #not sure why this is here since there's already an email section below
+
+  #left sidebar for now
   links:
+    - label: "UBC"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: mailto:andyl@alumni.ubc.ca
     - label: "AndyL@alumni.ubc.ca"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:andyl@alumni.ubc.ca
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/andyl2020"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/andyl2020"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-# Site Footer
+# Site Footer (bottom of webpage links)
 footer:
   links:
     - label: "Twitter"
@@ -291,3 +297,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
