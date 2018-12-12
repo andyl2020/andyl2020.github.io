@@ -1,2 +1,2 @@
- - UBC on education should not have a link. however without a URL (or with it commented out) it wont show up. 
- - figure out how to push to master. 
+ - UBC on education should not have a link. however without a URL (or with it commented out) it wont show up.
+ - posts script does not work for pages (i have no clude what the script even does). it gives an error 
