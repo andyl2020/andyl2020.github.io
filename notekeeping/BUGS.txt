@@ -1,2 +1,4 @@
  - UBC on education should not have a link. however without a URL (or with it commented out) it wont show up.
- - posts script does not work for pages (i have no clude what the script even does). it gives an error 
+ - posts script does not work for pages (i have no clude what the script even does). it gives an error
+ - _site is where the actual viewed browser site is generated. i know it can ignore files somehow. get it to ignore  notekeeping.
+ - make a sick readme file.
