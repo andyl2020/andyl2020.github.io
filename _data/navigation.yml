@@ -9,6 +9,12 @@ main:
     url: /projects/
   - title: "404 Test"
     url: /404.html
+  - title: "noLayout"
+    url: /test1/
+  - title: "Single"
+    url: /test2/
+  - title: "Archieve"
+    url: /test3/
 
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
