@@ -65,6 +65,74 @@ test
 to go to google [link](www.google.com)
 try to [hyperlink](http://google.com) words
 
+
+[I'm an inline-style link](https://www.google.com)
+
+Hover over link and show title:
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage TEEHEE")
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
+example.com (but not on Github, for example). Can confirm angle brackets work, the others don't.
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org wait so these 3 dont show up what about this text?
+[1]: http://slashdot.org #test comment, not needed! you can put all ur links down here and descibe em without even commenting
+[link text itself]: http://www.reddit.com INTERESTING! THIS TEXT DOESNT SHOW UP!
+
+^this is so cool and organized.
+# test comment (this failed).... yeah cuz its a heading
+fail test comment
+123
+123
+<!---
+WHATEVER METHOD YOU USE TO MAKE YOUR COMMENT HIT 'VIEW SOURCE/INSPECT ELEMENT TO MAKE SURE IT ACTUALLY DOESNT GET GENERATED'
+A note that this comment does, indeed, get generated
+-->
+
+[//]: # (This may be the most platform independent comment. THIS COMMENT DOES NOT GET GENERATED.)
+
+<details>
+<summary>
+<i>Like this? </i>
+<a href="http://www.ironspider.ca/format_text/fontstyles.htm">
+Useful Source</a>
+</summary>
+<p>It's because the details block is html5. If you want to modify it your best bet is using html5. </p>
+</details>
+
+
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+    print("hello world!")
+```
+
+</p>
+</details>
+
+Does details give you a line? (title with arrow)
+<details>
+test 123
+Oh details gives you the collapsible menu thing
+</details>
+
+
+
 list example:(all these show up as dots)
 - dash
 * asterisk
